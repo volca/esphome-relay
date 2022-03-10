@@ -21,7 +21,7 @@ switch:
   - platform: gpio
     id: bulb
     pin:
-      number: GPIO2
+      number: D1
       inverted: True
 
 logger:
