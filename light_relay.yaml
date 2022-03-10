@@ -35,3 +35,6 @@ wifi:
     ssid: "light_relay"
 
 captive_portal:
+
+# Enable Home Assistant API
+api:
