@@ -20,6 +20,7 @@ esp8266:
 switch:
   - platform: gpio
     id: bulb
+    name: bulb
     pin:
       number: D1
       inverted: True
