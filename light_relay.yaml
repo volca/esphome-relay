@@ -14,10 +14,8 @@ esphome:
     name: esphome.project-template
     version: "1.0"
 
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
+esp8266:
+  board: nodemcuv2
 
 switch:
   - platform: gpio
